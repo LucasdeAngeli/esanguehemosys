@@ -1,0 +1,18 @@
+class User {
+  String nome;
+  String nascimento;
+  String nome_mae;
+  String profissao;
+  String telefone;
+  String tipo_sanguineo;
+  String peso;
+
+  User(
+      {this.nome,
+      this.nascimento,
+      this.nome_mae,
+      this.profissao,
+      this.telefone,
+      this.tipo_sanguineo,
+      this.peso});
+}
